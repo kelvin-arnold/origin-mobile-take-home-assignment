@@ -1,0 +1,35 @@
+export const OriginTheme = {
+  colors: {
+    primary100: '#FE4B6B',
+    scondary100: '#F1AF4D',
+    success100: '#53c990',
+    success50: '#79dfad',
+    success20: '#bbf7da',
+    info100: '#3f5faa',
+    info50: '#6682c3',
+    info20: '#a0b6e8',
+    error100: '#ea2045',
+    error50: '#d75b71',
+    error20: '#fec2cd',
+    light: '#F2F7F8',
+    dark: '#040506',
+    gray: '#dbdbdb',
+  },
+  base: {
+    spacing: 4,
+  },
+  radius: 8,
+  font: {
+    primary: 'Roboto',
+    scondary: 'Mono',
+  },
+  sizes: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+    xxxl: 56,
+  },
+};

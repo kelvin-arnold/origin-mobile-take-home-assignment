@@ -1,4 +1,28 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Origin challenges project
+
+## Project Setup
+
+This section outlines the assumptions made during development and provides an overview of the project structure and technologies used.
+
+**Features:**
+
+* The `src/features` folder houses all project features, allowing for easy addition of new ones in the future. Each feature is self-contained within its own directory, promoting modularity and maintainability.
+
+**Shared Components:**
+
+* Common components and logic reside in the `src` folder, including components, context providers, and a theme provider (utilizing styled-components) for consistent styling across the application.
+
+**Technology Stack:**
+
+This project leverages the following libraries and frameworks:
+
+* **styled-components:** For creating reusable and styled components
+* **react-hook-form:** For efficient form validation and creation
+* **zod:** For robust data validation
+* **redux-toolkit:** For simplified state management
+* **react-navigation:** For managing application navigation
+
+Video Demostration: [link](https://drive.google.com/file/d/1mjYnNK4FhUNXnkNH1br813JU6l2ytohX/view?usp=drive_link)
 
 # Getting Started
 
